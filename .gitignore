@@ -1,0 +1,8 @@
+*.pyc       # Compiled python files.
+settings.py # System specific. Sometimes contains db passwords.
+*.json      # dumpdata from manage.py
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
